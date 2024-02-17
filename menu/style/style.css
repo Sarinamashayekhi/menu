@@ -1,0 +1,53 @@
+body{
+    direction: rtl;
+    background-color: rgb(204, 201, 197);
+}
+
+*{
+    box-sizing: border-box;
+    font-family:Vazirmatn UI FD NL ;
+}
+
+
+.navbar a {
+  /* color: #000000; */
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  .navbar{
+    padding: 14px;
+    width: 100%;
+    background-color: #aba7a7;
+    display: flex;
+  }
+  .nav{
+    color: black;
+  }
+  
+  /* .navbar a:hover {
+    background-color: #1773c8;
+    color: rgb(233, 215, 215);
+  } */
+  .home{
+   color: white; 
+border-radius: 5px;
+border-style: solid;
+border-color: rgb(17, 76, 225);
+background-color: rgb(17, 76, 225);
+padding: 11px 10px;
+
+  }
+
+  @media(max-width: 700px){
+    .navbar{
+      flex-direction: column;
+      height: 150px;
+      text-align: right;
+    }
+  }
+  
+
+  
